@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48BB45064CA35F66473F349 /* libPods-Reply.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A8A3FF3264B2FE53AAC83C /* libPods-Reply.a */; };
+		CF377ED11E4098D10019110C /* SXReplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377EC41E4098D10019110C /* SXReplyCell.m */; };
+		CF377ED21E4098D10019110C /* SXReplyEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377EC61E4098D10019110C /* SXReplyEntity.m */; };
+		CF377ED31E4098D10019110C /* SXReplyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377EC81E4098D10019110C /* SXReplyHeader.m */; };
+		CF377ED41E4098D10019110C /* SXReplyHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF377EC91E4098D10019110C /* SXReplyHeader.xib */; };
+		CF377ED51E4098D10019110C /* SXReplyPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377ECB1E4098D10019110C /* SXReplyPage.m */; };
+		CF377ED61E4098D10019110C /* SXReplyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF377ECC1E4098D10019110C /* SXReplyPage.storyboard */; };
+		CF377ED71E4098D10019110C /* SXReplyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377ECE1E4098D10019110C /* SXReplyViewModel.m */; };
+		CF377ED81E4098D10019110C /* Target_Reply.m in Sources */ = {isa = PBXBuildFile; fileRef = CF377ED01E4098D10019110C /* Target_Reply.m */; };
+		CFD05A821E3AD0B500A76B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A811E3AD0B500A76B72 /* main.m */; };
+		CFD05A851E3AD0B500A76B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A841E3AD0B500A76B72 /* AppDelegate.m */; };
+		CFD05A881E3AD0B500A76B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A871E3AD0B500A76B72 /* ViewController.m */; };
+		CFD05A8B1E3AD0B500A76B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A891E3AD0B500A76B72 /* Main.storyboard */; };
+		CFD05A8D1E3AD0B500A76B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A8C1E3AD0B500A76B72 /* Assets.xcassets */; };
+		CFD05A901E3AD0B500A76B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A8E1E3AD0B500A76B72 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A8A3FF3264B2FE53AAC83C /* libPods-Reply.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reply.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CF18540419BE336CA77833 /* Pods-Reply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reply.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reply/Pods-Reply.debug.xcconfig"; sourceTree = "<group>"; };
+		CF377EC31E4098D10019110C /* SXReplyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXReplyCell.h; sourceTree = "<group>"; };
+		CF377EC41E4098D10019110C /* SXReplyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXReplyCell.m; sourceTree = "<group>"; };
+		CF377EC51E4098D10019110C /* SXReplyEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXReplyEntity.h; sourceTree = "<group>"; };
+		CF377EC61E4098D10019110C /* SXReplyEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXReplyEntity.m; sourceTree = "<group>"; };
+		CF377EC71E4098D10019110C /* SXReplyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXReplyHeader.h; sourceTree = "<group>"; };
+		CF377EC81E4098D10019110C /* SXReplyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXReplyHeader.m; sourceTree = "<group>"; };
+		CF377EC91E4098D10019110C /* SXReplyHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXReplyHeader.xib; sourceTree = "<group>"; };
+		CF377ECA1E4098D10019110C /* SXReplyPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXReplyPage.h; sourceTree = "<group>"; };
+		CF377ECB1E4098D10019110C /* SXReplyPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXReplyPage.m; sourceTree = "<group>"; };
+		CF377ECC1E4098D10019110C /* SXReplyPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SXReplyPage.storyboard; sourceTree = "<group>"; };
+		CF377ECD1E4098D10019110C /* SXReplyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXReplyViewModel.h; sourceTree = "<group>"; };
+		CF377ECE1E4098D10019110C /* SXReplyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXReplyViewModel.m; sourceTree = "<group>"; };
+		CF377ECF1E4098D10019110C /* Target_Reply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Reply.h; sourceTree = "<group>"; };
+		CF377ED01E4098D10019110C /* Target_Reply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Reply.m; sourceTree = "<group>"; };
+		CFD05A7D1E3AD0B500A76B72 /* Reply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD05A811E3AD0B500A76B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD05A831E3AD0B500A76B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFD05A841E3AD0B500A76B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFD05A861E3AD0B500A76B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFD05A871E3AD0B500A76B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFD05A8A1E3AD0B500A76B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD05A8C1E3AD0B500A76B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD05A8F1E3AD0B500A76B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD05A911E3AD0B500A76B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E839DC8C4D27DB7948BCCEEB /* Pods-Reply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reply.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reply/Pods-Reply.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD05A7A1E3AD0B500A76B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48BB45064CA35F66473F349 /* libPods-Reply.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F71C6CD218A97362CFF1013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A8A3FF3264B2FE53AAC83C /* libPods-Reply.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF82E971383E21E4C5035BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37CF18540419BE336CA77833 /* Pods-Reply.debug.xcconfig */,
+				E839DC8C4D27DB7948BCCEEB /* Pods-Reply.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF377EB51E4088490019110C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				CF377EDB1E409A1B0019110C /* Page */,
+				CF377EDC1E409A1F0019110C /* Entity */,
+				CF377EDA1E409A110019110C /* ViewModel */,
+				CF377ED91E409A0D0019110C /* Target */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		CF377ED91E409A0D0019110C /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				CF377ECF1E4098D10019110C /* Target_Reply.h */,
+				CF377ED01E4098D10019110C /* Target_Reply.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		CF377EDA1E409A110019110C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF377ECD1E4098D10019110C /* SXReplyViewModel.h */,
+				CF377ECE1E4098D10019110C /* SXReplyViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF377EDB1E409A1B0019110C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				CF377EC31E4098D10019110C /* SXReplyCell.h */,
+				CF377EC41E4098D10019110C /* SXReplyCell.m */,
+				CF377EC71E4098D10019110C /* SXReplyHeader.h */,
+				CF377EC81E4098D10019110C /* SXReplyHeader.m */,
+				CF377EC91E4098D10019110C /* SXReplyHeader.xib */,
+				CF377ECA1E4098D10019110C /* SXReplyPage.h */,
+				CF377ECB1E4098D10019110C /* SXReplyPage.m */,
+				CF377ECC1E4098D10019110C /* SXReplyPage.storyboard */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		CF377EDC1E409A1F0019110C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CF377EC51E4098D10019110C /* SXReplyEntity.h */,
+				CF377EC61E4098D10019110C /* SXReplyEntity.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		CF4DCC2D1E3AFCA400FDE632 /* Reply */ = {
+			isa = PBXGroup;
+			children = (
+				CF377EB51E4088490019110C /* Page */,
+			);
+			path = Reply;
+			sourceTree = "<group>";
+		};
+		CFD05A741E3AD0B500A76B72 = {
+			isa = PBXGroup;
+			children = (
+				CFD05A7F1E3AD0B500A76B72 /* Reply */,
+				CFD05A7E1E3AD0B500A76B72 /* Products */,
+				BAF82E971383E21E4C5035BA /* Pods */,
+				4F71C6CD218A97362CFF1013 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD05A7E1E3AD0B500A76B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD05A7D1E3AD0B500A76B72 /* Reply.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD05A7F1E3AD0B500A76B72 /* Reply */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DCC2D1E3AFCA400FDE632 /* Reply */,
+				CFD05A831E3AD0B500A76B72 /* AppDelegate.h */,
+				CFD05A841E3AD0B500A76B72 /* AppDelegate.m */,
+				CFD05A861E3AD0B500A76B72 /* ViewController.h */,
+				CFD05A871E3AD0B500A76B72 /* ViewController.m */,
+				CFD05A891E3AD0B500A76B72 /* Main.storyboard */,
+				CFD05A8C1E3AD0B500A76B72 /* Assets.xcassets */,
+				CFD05A8E1E3AD0B500A76B72 /* LaunchScreen.storyboard */,
+				CFD05A911E3AD0B500A76B72 /* Info.plist */,
+				CFD05A801E3AD0B500A76B72 /* Supporting Files */,
+			);
+			path = Reply;
+			sourceTree = "<group>";
+		};
+		CFD05A801E3AD0B500A76B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD05A811E3AD0B500A76B72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD05A7C1E3AD0B500A76B72 /* Reply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD05A941E3AD0B500A76B72 /* Build configuration list for PBXNativeTarget "Reply" */;
+			buildPhases = (
+				51B6B4A28EECA59DDD59874D /* [CP] Check Pods Manifest.lock */,
+				CFD05A791E3AD0B500A76B72 /* Sources */,
+				CFD05A7A1E3AD0B500A76B72 /* Frameworks */,
+				CFD05A7B1E3AD0B500A76B72 /* Resources */,
+				329CF3ED58762D428DB5DD28 /* [CP] Embed Pods Frameworks */,
+				F1386F7B93A59BAC4254E4C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reply;
+			productName = Reply;
+			productReference = CFD05A7D1E3AD0B500A76B72 /* Reply.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD05A751E3AD0B500A76B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wangshiyu13;
+				TargetAttributes = {
+					CFD05A7C1E3AD0B500A76B72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFD05A781E3AD0B500A76B72 /* Build configuration list for PBXProject "Reply" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD05A741E3AD0B500A76B72;
+			productRefGroup = CFD05A7E1E3AD0B500A76B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD05A7C1E3AD0B500A76B72 /* Reply */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD05A7B1E3AD0B500A76B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD05A901E3AD0B500A76B72 /* LaunchScreen.storyboard in Resources */,
+				CFD05A8D1E3AD0B500A76B72 /* Assets.xcassets in Resources */,
+				CF377ED41E4098D10019110C /* SXReplyHeader.xib in Resources */,
+				CFD05A8B1E3AD0B500A76B72 /* Main.storyboard in Resources */,
+				CF377ED61E4098D10019110C /* SXReplyPage.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329CF3ED58762D428DB5DD28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reply/Pods-Reply-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B6B4A28EECA59DDD59874D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1386F7B93A59BAC4254E4C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reply/Pods-Reply-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD05A791E3AD0B500A76B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF377ED71E4098D10019110C /* SXReplyViewModel.m in Sources */,
+				CF377ED81E4098D10019110C /* Target_Reply.m in Sources */,
+				CFD05A881E3AD0B500A76B72 /* ViewController.m in Sources */,
+				CF377ED51E4098D10019110C /* SXReplyPage.m in Sources */,
+				CFD05A851E3AD0B500A76B72 /* AppDelegate.m in Sources */,
+				CF377ED31E4098D10019110C /* SXReplyHeader.m in Sources */,
+				CFD05A821E3AD0B500A76B72 /* main.m in Sources */,
+				CF377ED11E4098D10019110C /* SXReplyCell.m in Sources */,
+				CF377ED21E4098D10019110C /* SXReplyEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFD05A891E3AD0B500A76B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD05A8A1E3AD0B500A76B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD05A8E1E3AD0B500A76B72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD05A8F1E3AD0B500A76B72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD05A921E3AD0B500A76B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD05A931E3AD0B500A76B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD05A951E3AD0B500A76B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CF18540419BE336CA77833 /* Pods-Reply.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangshiyu13.Reply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFD05A961E3AD0B500A76B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E839DC8C4D27DB7948BCCEEB /* Pods-Reply.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangshiyu13.Reply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD05A781E3AD0B500A76B72 /* Build configuration list for PBXProject "Reply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD05A921E3AD0B500A76B72 /* Debug */,
+				CFD05A931E3AD0B500A76B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD05A941E3AD0B500A76B72 /* Build configuration list for PBXNativeTarget "Reply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD05A951E3AD0B500A76B72 /* Debug */,
+				CFD05A961E3AD0B500A76B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD05A751E3AD0B500A76B72 /* Project object */;
+}
